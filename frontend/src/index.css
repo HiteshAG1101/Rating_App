@@ -1,0 +1,167 @@
+/* Global styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+
+/* Container */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #2563eb;
+  /* blue */
+  color: #ffffff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-text {
+  margin-right: 16px;
+}
+
+
+/* Button */
+
+.button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+/* Card */
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+
+/* Form styles */
+
+.form-card {
+  max-width: 400px;
+  margin: 32px auto;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 16px;
+}
+
+
+/* Page Titles */
+
+.page-title {
+  font-size: 1.75rem;
+  margin-bottom: 16px;
+}
+
+
+/* Search inputs */
+
+.search-group {
+  margin-bottom: 16px;
+}
+
+.search-input {
+  margin-right: 8px;
+  max-width: 300px;
+}
+
+
+/* Store card */
+
+.store-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.store-title {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+
+/* Rating input */
+
+.rating-input {
+  margin-top: 8px;
+  max-width: 100px;
+}
+
+
+/* Rating card in dashboard */
+
+.rating-card {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
